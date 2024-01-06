@@ -1,0 +1,4 @@
+Before importing the Database!
+1. create a database named : 'imvusa2.0'
+2. Go to import > upload the 'imvusa2.0' sql file
+
