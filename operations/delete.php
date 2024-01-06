@@ -7,7 +7,7 @@
         $delMarketplace = mysqli_query($con, "DELETE FROM marketplace WHERE id = '$marketplace_id'");
         
         if ($delMarketplace) {
-            header("Location: ../index.php");
+            header("Location: ../operations/delete.php");
             echo "<script>alert('Listing deleted.');</script>";
         } else {
             echo "<script>alert('An Error occurred, could not delete listing.');</script>";
@@ -22,8 +22,8 @@
 <?php
 //DELETE FROM GALLERY
 if(isset($_POST['gallery_delete'])){
-    include("../connection/conn.php");
-    include("index.php");
+    //include("../connection/conn.php");
+    //include("index.php");
     $image_id = $_POST['gallery_delete'];
     if(isset($con) && $con !== null){
         if($deleteSQL){ 
@@ -31,11 +31,11 @@ if(isset($_POST['gallery_delete'])){
             header("Location: index.php");
         }else{
             echo "<script> alert('Deletion Error. '); </script>";
-            header("Location: index.php");
+            //header("Location: index.php");
         }
     }else{
         echo "<script> alert('Database Conncetion Error!'); </script>";
-        header("Location: index.php");
+        //header("Location: index.php");
     }
 }
     ?>
