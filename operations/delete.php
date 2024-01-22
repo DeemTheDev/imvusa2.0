@@ -1,9 +1,11 @@
 <?php
-//DELETE FROM MARKETPLACE
-    include("../connection/conn.php");
-    include("index.php");
+// DELETE FROM MARKETPLACE
+include("../connection/conn.php");
+
+if (isset($_POST['delete_marketplace'])) {
     $marketplace_id = $_POST['delete_marketplace'];
-    if(isset($con) && $con !== null){
+
+    if (isset($con) && $con !== null) {
         $delMarketplace = mysqli_query($con, "DELETE FROM marketplace WHERE id = '$marketplace_id'");
         
         if ($delMarketplace) {
@@ -15,27 +17,26 @@
     } else {
         echo "<script>alert('Database connection not available.');</script>";
     }
+}
 
-
-?>
-
-<?php
-//DELETE FROM GALLERY
-if(isset($_POST['gallery_delete'])){
+// DELETE FROM GALLERY
+if (isset($_POST['gallery_delete'])) {
     include("../connection/conn.php");
-    include("index.php");
     $image_id = $_POST['gallery_delete'];
-    if(isset($con) && $con !== null){
-        if($deleteSQL){ 
+
+    if (isset($con) && $con !== null) {
+        $deleteSQL = mysqli_query($con, "DELETE FROM gallery WHERE id = '$image_id'");
+        
+        if ($deleteSQL) {
             echo "<script> alert('Image deleted. '); </script>";
-            header("Location: index.php");
-        }else{
+            header("Location: ../index.php");
+        } else {
             echo "<script> alert('Deletion Error. '); </script>";
-            header("Location: index.php");
+            header("Location: ../index.php");
         }
-    }else{
-        echo "<script> alert('Database Conncetion Error!'); </script>";
-        header("Location: index.php");
+    } else {
+        echo "<script> alert('Database Connection Error!'); </script>";
+        header("Location: ../index.php");
     }
 }
-    ?>
+?>
