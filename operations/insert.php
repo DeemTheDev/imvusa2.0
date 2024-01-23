@@ -9,10 +9,10 @@
             $gallerySQL = mysqli_query($con, "INSERT INTO gallery(image_path, comment)
             VALUES('$galleryFile', '$comment')");
             if(move_uploaded_file($galleryTmp, $galleryPath)){
-                header("Location: ../index.php");
+                header("Location: ../admin.php");
                 echo "<script> alert('Image uploaded to gallery');</script>";
             }else{
-                header("Location: ../index.php");
+                header("Location: ../admin.php");
                 echo "<script> alert('An ERROR occured');</script>";
             }
         
@@ -32,10 +32,10 @@
             $sql = mysqli_query($con, "INSERT INTO marketplace(image_path, price, description)
             VALUES('$imageName', '$price', '$descritpion')");
             if(move_uploaded_file($tmpName, $path)){  
-                header("Location: ../index.php");  
+                header("Location: ../admin.php");  
                  echo "<script> alert('Upload Success.');</script>";
             }else{     
-                header("Location: ../index.php");
+                header("Location: ../admin.php");
                 echo "<script> alert('An error occured.');</script>";
             }
         }

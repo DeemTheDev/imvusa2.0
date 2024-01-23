@@ -9,7 +9,7 @@ if (isset($_POST['delete_marketplace'])) {
         $delMarketplace = mysqli_query($con, "DELETE FROM marketplace WHERE id = '$marketplace_id'");
         
         if ($delMarketplace) {
-            header("Location: ../index.php");
+            header("Location: ../admin.php");
             echo "<script>alert('Listing deleted.');</script>";
         } else {
             echo "<script>alert('An Error occurred, could not delete listing.');</script>";
@@ -29,14 +29,14 @@ if (isset($_POST['gallery_delete'])) {
         
         if ($deleteSQL) {
             echo "<script> alert('Image deleted. '); </script>";
-            header("Location: ../index.php");
+            header("Location: ../admin.php");
         } else {
             echo "<script> alert('Deletion Error. '); </script>";
             header("Location: ../index.php");
         }
     } else {
         echo "<script> alert('Database Connection Error!'); </script>";
-        header("Location: ../index.php");
+        header("Location: ../admin.php");
     }
 }
 ?>
