@@ -1,3 +1,9 @@
+<?php session_start();
+    if(!isset($_SESSION['user_id'])){
+        header("Location: login.php");
+        exit();
+    }
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,7 +17,13 @@
     </style>
 </head>
 <body>
-    <nav></nav>
+    <nav>
+        <ul>
+            
+            <li><a href="logout.php">Log Out</a></li>
+            <li><a href="index.php">Home</a></li>
+        </ul>
+    </nav>
     
     <section>
         <h3 class="heading">Marketplace</h3>

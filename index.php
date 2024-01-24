@@ -415,7 +415,7 @@
 							<img style="border-radius: 5px;" src="<?php echo 'images/' . $row1['image_path']; ?>">
 						</div>
 						<div class='text'>
-							<strong>PRICE: </strong><span><?php echo $row1['price']; ?></span>
+							<strong>PRICE: </strong><span><?php echo 'R ' . $row1['price']; ?></span>
 						</div>
 					</div>
 				  </div>
