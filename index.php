@@ -89,7 +89,7 @@
 	        	<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
 	        	<li class="nav-item"><a href="project.html" class="nav-link">Marketplace</a></li>
 	          	<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-				  <li class="nav-item"><a href="login.php" class="nav-link">Admin</a></li>
+				  <li class="nav-item"><a href="operations/login.php" class="nav-link">Admin</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -415,7 +415,8 @@
 							<img style="border-radius: 5px;" src="<?php echo 'images/' . $row1['image_path']; ?>">
 						</div>
 						<div class='text'>
-							<strong>PRICE: </strong><span><?php echo 'R ' . $row1['price']; ?></span>
+							<strong class="price">PRICE: </strong><span class="price"><?php echo 'R ' . $row1['price']; ?></span>
+							<span class="buy__now"><a href="#" class="btn btn-primary whatsapp-buy">Whatsapp</a></span>
 						</div>
 					</div>
 				  </div>

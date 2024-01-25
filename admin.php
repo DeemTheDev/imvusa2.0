@@ -1,6 +1,6 @@
 <?php session_start();
     if(!isset($_SESSION['user_id'])){
-        header("Location: login.php");
+        header("Location: operations/login.php");
         exit();
     }
 ?>
@@ -20,7 +20,7 @@
     <nav>
         <ul>
             
-            <li><a href="logout.php">Log Out</a></li>
+            <li><a href="operations/logout.php">Log Out</a></li>
             <li><a href="index.php">Home</a></li>
         </ul>
     </nav>

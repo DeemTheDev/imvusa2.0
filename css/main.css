@@ -1,0 +1,34 @@
+.sale__image{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
+    overflow: hidden;
+
+}
+.sale__image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.buy__now a{
+    margin-top: 0.5rem;
+    float: right;
+}
+
+.price{
+    position: relative;
+    top: 1rem;
+}
+.whatsapp-buy{
+    background-color: teal !important;
+    border-color: aliceblue !important;
+}
+.whatsapp-buy:hover{
+    background-color: white !important;
+    color: teal !important;
+    border-color: teal !important;
+}
