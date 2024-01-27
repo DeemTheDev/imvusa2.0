@@ -157,21 +157,20 @@
             <div class="d-block d-flex">
               <div class="icon d-flex justify-content-center align-items-center">
             		<span class="flaticon-car-service"></span>
-              </div>
+              </div> 
               <div class="media-body pl-3">
-                <h3 class="heading">Oil change</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
+                <h3 class="heading">Vehicle Maintenance</h3>
+                <p>Partner with us, and experience a level of mechanical expertise that goes beyond the ordinary, setting new benchmarks for the maintenance of construction vehicles.</p>
               </div>
             </div>
             <div class="d-block d-flex">
               <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-tyre"></span>
+            		<span><ion-icon src="icons/cement-truck-svgrepo-com.svg"></ion-icon></span>
               </div>
               <div class="media-body pl-3">
-                <h3 class="heading">Tire Change</h3>
+                <h3 class="heading">Cement Mixers</h3>
                 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
+                
               </div>
             </div> 
 
@@ -179,22 +178,22 @@
           <div class="col-md-4 services ftco-animate">
             <div class="d-block d-flex">
               <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-battery"></span>
+            		<span><ion-icon src="icons/backhoes-svgrepo-com.svg"></ion-icon></span>
               </div>
               <div class="media-body pl-3">
-                <h3 class="heading">Batteries</h3>
+                <h3 class="heading">TLB Hire</h3>
                 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
+                
               </div>
             </div> 
             <div class="d-block d-flex">
               <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-car-engine"></span>
+            		<span><ion-icon src="icons/repair-svgrepo-com.svg"></ion-icon></span>
               </div>
               <div class="media-body pl-3">
                 <h3 class="heading">Engine Repair</h3>
                 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
+                
               </div>
             </div>    
           </div>
@@ -202,12 +201,12 @@
           <div class="col-md-4 services ftco-animate">
             <div class="d-block d-flex">
               <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-tow-truck"></span>
+            		<span><ion-icon src="icons/truck-weight-max-loading-svgrepo-com.svg"></ion-icon></span>
               </div>
               <div class="media-body pl-3">
-                <h3 class="heading">Tow Truck</h3>
+                <h3 class="heading">Truck Hire</h3>
                 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
+                
               </div>
             </div>
 
@@ -218,7 +217,7 @@
               <div class="media-body pl-3">
                 <h3 class="heading">Vehicle Maintenance</h3>
                 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                <p><a href="#" class="btn-custom">Read more</a></p>
+                
               </div>
             </div>       
           </div>
@@ -627,6 +626,9 @@
   <script src="js/scrollax.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
+  <!--Ion Icons--> 
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <script src="js/main.js"></script>
     
   </body>
