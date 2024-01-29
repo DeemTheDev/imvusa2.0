@@ -1,6 +1,6 @@
 <?php session_start(); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
   <head>
 	<!-- Site Metas -->
     <title>IMVUSA PLANT HIRE</title>
@@ -58,10 +58,10 @@
 							<div class="col-md-3 d-flex justify-content-end align-items-center">
 								<div class="social-media">
 									<p class="mb-0 d-flex">
-										<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+										<a href="https://www.facebook.com/profile.php?id=61552205154178" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
 										<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-										<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-										<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+										<a href="https://www.instagram.com/imvusaplant?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+										<a href="https://wa.me/+27849001975" class="d-flex align-items-center justify-content-center"><span class="fa fa-whatsapp"><i class="sr-only">Dribbble</i></span></a>
 									</p>
 				        		</div>
 							</div>
@@ -85,10 +85,10 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
 	        	<li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-	        	<li class="nav-item"><a href="project.html" class="nav-link">Marketplace</a></li>
-	          	<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+	        	<li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+	        	<li class="nav-item"><a href="#marketplace" class="nav-link">Marketplace</a></li>
+	          	<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
 				  <li class="nav-item"><a href="operations/login.php" class="nav-link">Admin</a></li>
 	        </ul>
 	      </div>
@@ -145,7 +145,7 @@
 			</div>	
 		</section>
 
-    <section class="ftco-section">
+    <section class="ftco-section" id="services">
     	<div class="container">
     		<div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
@@ -169,7 +169,7 @@
               </div>
               <div class="media-body pl-3">
                 <h3 class="heading">Cement Mixers</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>Our cutting-edge fleet of cement mixers is designed to streamline your construction projects, delivering efficiency and consistency. </p>
                 
               </div>
             </div> 
@@ -182,7 +182,7 @@
               </div>
               <div class="media-body pl-3">
                 <h3 class="heading">TLB Hire</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>Imvusa Plant Hire prides itself on delivering top-tier TLB machinery, meticulously maintained to industry standards. </p>
                 
               </div>
             </div> 
@@ -192,7 +192,7 @@
               </div>
               <div class="media-body pl-3">
                 <h3 class="heading">Engine Repair</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>Trust us for comprehensive engine repair services that go beyond expectations, keeping your equipment running smoothly and your projects on track.</p>
                 
               </div>
             </div>    
@@ -205,7 +205,7 @@
               </div>
               <div class="media-body pl-3">
                 <h3 class="heading">Truck Hire</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>Elevate your logistics with Imvusa Plant Hire, where excellence in truck hire is our commitment to your success.</p>
                 
               </div>
             </div>
@@ -215,8 +215,8 @@
             		<span class="flaticon-repair"></span>
               </div>
               <div class="media-body pl-3">
-                <h3 class="heading">Vehicle Maintenance</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">Vehicle Restoration</h3>
+                <p>Our restoration experts combine passion with precision to revive and enhance the beauty of classic and vintage vehicles. </p>
                 
               </div>
             </div>       
@@ -225,7 +225,7 @@
     	</div>
     </section>
    	
-    <section class="ftco-section ftco-no-pt ftco-no-pb bg-light">
+    <section class="ftco-section ftco-no-pt ftco-no-pb bg-light" id="about">
     	<div class="container">
     		<div class="row d-flex no-gutters">
     			<div class="col-md-6 d-flex">
@@ -319,27 +319,28 @@
     	</div>
     </section>
 
-		<section class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img" style="background-image: url(images/imvusa-web-img1.jpg);;">
+		<section class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img" style="background-image: url(images/imvusa-web-img1.jpg);;" id="contact">
 			<div class="overlay"></div>
     	<div class="container">
     		<div class="row d-md-flex justify-content-end">
     			<div class="col-md-12 col-lg-6 half p-3 py-5 pl-lg-5 ftco-animate heading-section heading-section-white">
     				<span class="subheading">Booking an Appointment</span>
     				<h2 class="mb-4">Free Consultation</h2>
-    				<form action="#" class="appointment">
+    				<form action="operations/send-mail.php" method="post" class="appointment">
     					<div class="row">
     						<div class="col-md-12">
 									<div class="form-group">
 			    					<div class="form-field">
 	          					<div class="select-wrap">
 	                      <div class="icon"><span class="fa fa-chevron-down"></span></div>
-	                      <select name="" id="" class="form-control">
-	                      	<option value="">Select services</option>
-	                        <option value="">Change Oil</option>
-	                        <option value="">Engine Repair</option>
-	                        <option value="">Battery Replace</option>
-	                        <option value="">Change Tire</option>
-	                        <option value="">Tow Truck</option>
+	                      <select name="option" id="" class="form-control">
+	                      	<option value="Select services">Select services</option>
+	                        <option value="Vehicle Maintenance">Vehicle Maintenance</option>
+	                        <option value="Engine Repair">Engine Repair</option>
+	                        <option value="">TLB Hire</option>
+	                        <option value="Cement Mixers">Cement Mixers</option>
+	                        <option value="Truck Hire">Truck Hire</option>
+							<option value="Vehicle restorations">Vehicle Restorations</option>
 	                      </select>
 	                    </div>
 			              </div>
@@ -347,19 +348,19 @@
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-			              <input type="text" class="form-control" placeholder="Your Name">
+			              <input type="text" class="form-control" placeholder="Your Name" name="name">
 			            </div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-			              <input type="text" class="form-control" placeholder="Vehicle number">
+			              <input type="text" class="form-control" placeholder="Phone Number" name="number">
 			            </div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
 			    					<div class="input-wrap">
 			            		<div class="icon"><span class="fa fa-calendar"></span></div>
-			            		<input type="text" class="form-control appointment_date" placeholder="Date">
+			            		<input type="text" class="form-control appointment_date" placeholder="Date" name="date">
 		            		</div>
 			    				</div>
 								</div>
@@ -367,28 +368,36 @@
 									<div class="form-group">
 			    					<div class="input-wrap">
 			            		<div class="icon"><span class="fa fa-clock-o"></span></div>
-			            		<input type="text" class="form-control appointment_time" placeholder="Time">
+			            		<input type="text" class="form-control appointment_time" placeholder="Time" name="time">
 		            		</div>
 			    				</div>
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-			              <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+			              
+							<input class="form-control" placeholder="Message" type="text" name="message" id="">
+						
 			            </div>
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-			              <input type="submit" value="Send message" class="btn btn-dark py-3 px-4">
+			              <input type="submit" name="send-email" class="btn btn-dark py-3 px-4">
 			            </div>
 								</div>
     					</div>
+						
+						<?php
+							
+							include('operations/send-mail.php');
+							
+						?>
 	          </form>
     			</div>
     		</div>
     	</div>
     </section>
 
-    <section class="ftco-section testimony-section bg-light">
+    <section class="ftco-section testimony-section bg-light" id="marketplace">
       <div class="container">
         <div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
@@ -547,31 +556,31 @@
               <h2 class="logo"><a href="#">Imvusa Plant Hire<span>.</span></a></h2>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-4">
                 <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61552205154178"><span class="fa fa-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/imvusaplant?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><span class="fa fa-instagram"></span></a></li>
               </ul>
             </div>
           </div>
-          <!-- <div class="col-md-6 col-lg">
+          <div class="col-md-6 col-lg">
             <div class="ftco-footer-widget mb-4 ml-md-5">
               <h2 class="ftco-heading-2">Services</h2>
               <ul class="list-unstyled">
-                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Oil Change</a></li>
-                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Batteries</a></li>
-                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Tow Truck</a></li>
-                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Tire Change</a></li>
-                <li><a href="#" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Engine Repair</a></li>
+                <li><a href="#contact" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Vehicle Maintenance</a></li>
+                <li><a href="#contact" class="py-1 d-block"><span class="fa fa-check mr-3"></span>TLB Hire</a></li>
+                <li><a href="#contact" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Truck Hire</a></li>
+                <li><a href="#contact" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Engine Repair</a></li>
+                <li><a href="#contact" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Vehicle Restoration</a></li>
               </ul>
             </div>
-          </div> -->
-          <!-- <div class="col-md-6 col-lg">
+          </div>
+          <div class="col-md-6 col-lg">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Contact information</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon fa fa-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@yourdomain.com</span></a></li>
+	                <li><span class="icon fa fa-map-marker"></span><span class="text"><a href="https://www.google.com/maps/place/50+Old+Main+Rd,+Canelands,+Verulam,+4399/@-29.6311808,31.0564091,17z/data=!3m1!4b1!4m6!3m5!1s0x1ef71a8d7e87c65b:0xd78e4666b86f3d22!8m2!3d-29.6311855!4d31.058984!16s%2Fg%2F11ql_5m96q?entry=ttu">50 Old Main RD, Canelands, Verulam</a></span></li>
+	                <li><a href="https://wa.me/+27849001975"><span class="icon fa fa-phone"></span><span class="text">084 900 1975</span></a></li>
+	                <li><a href="mailto:admin786@imvusaplant.co.za"><span class="icon fa fa-paper-plane"></span><span class="text">admin786@imvusaplant.co.za</span></a></li>
 	              </ul>
 	            </div>
             </div>
@@ -582,8 +591,8 @@
               <div class="opening-hours">
               	<h4>Opening Days:</h4>
               	<p class="pl-3">
-              		<span>Monday – Friday : 9am to 20 pm</span>
-              		<span>Saturday : 9am to 17 pm</span>
+              		<span>Monday – Friday : 8am to 5pm</span>
+              		<span>Saturday : 9am to 3pm</span>
               	</p>
               	<h4>Vacations:</h4>
               	<p class="pl-3">
@@ -597,12 +606,10 @@
         <div class="row">
           <div class="col-md-12 text-center">
 
-            <p> Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.</p>
+             <p>All rights reserved | Made By <a href="ziaeetechnologies.co.za">Ziaee Technologies</a><i class="fa fa-heart" aria-hidden="true"></i></p>
           </div>
         </div>
-      </div> -->
+      </div>
     </footer>
     
   
